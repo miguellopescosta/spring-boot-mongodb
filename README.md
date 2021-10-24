@@ -1,6 +1,7 @@
-👋 Hi, I’m @miguellopescosta 👀
+👋 Hi, I’m @miguellopescosta
 
-I’m interested in ... surfing 🏄 and coding 👨‍💻! 🌱 I’m currently programming with... Java, JavaScript, Spring Boot, Node.JS among many other technologies.
+👀 I’m interested in ... surfing 🏄 and coding 👨‍💻!
+🌱 I’m currently programming with... Java, JavaScript, Spring Boot, Node.JS among many other technologies.
 💞️ I’m looking to collaborate on ... good causes!
 📫 How to reach me ... miguellopescosta@sapo.pt
 
