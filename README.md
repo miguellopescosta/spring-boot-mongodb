@@ -1,7 +1,7 @@
 # spring-boot-mongodb
 Funny assignment with Spring Boot, Spring Data, Spring Web and Google Guava CacheLoader.
 
-After compiling the project, you can run it on Tomcat. I used Tomcat 9.0.54. I order to run on Wildfly, you'll need some adjustments.
+After compiling the project, you can run it on Tomcat. I used Tomcat 9.0.54. In order to run on Wildfly, you'll need some adjustments.
 
 If you wish to run the project on Intelli J, please, remove the following dependency from pom.xml.
 
