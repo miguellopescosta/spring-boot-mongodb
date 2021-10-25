@@ -1,7 +1,6 @@
 package com.exercise.quotes50k.services;
 
 import com.exercise.quotes50k.cache.CacheInterface;
-import com.exercise.quotes50k.cache.GenericCache;
 import com.exercise.quotes50k.models.Quote;
 import com.exercise.quotes50k.repositories.QuotesRepository;
 import com.exercise.quotes50k.view.DataResponse;
@@ -43,10 +42,10 @@ public class RestApiController {
     public DataResponse getQuotes(@QueryParam("id") String id, @QueryParam("author") String author) {
         if (id != null && author == null) {
             return new DataResponse(quotesRepository.findById(id).stream().collect(Collectors.toList()));
-        } else if (id != null && author != null) {
-            return new DataResponse(quotesRepository.findUsersByIdAndAuthor(id, author));
+        } else if (id != null) {
+            return new DataResponse(quotesRepository.findQuotesByIdAndAuthor(id, author));
         } else {
-            return new DataResponse(quotesRepository.findUsersByAuthor(author));
+            return new DataResponse(quotesRepository.findQuotesByAuthor(author));
         }
     }
 

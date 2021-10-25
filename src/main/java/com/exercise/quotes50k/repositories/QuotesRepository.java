@@ -11,10 +11,10 @@ import java.util.List;
 public interface QuotesRepository extends MongoRepository<Quote, String> {
 
     @Query("{ 'quoteAuthor' : ?0 }")
-    List<Quote> findUsersByAuthor(String quoteAuthor);
+    List<Quote> findQuotesByAuthor(String quoteAuthor);
 
-    @Query("{ '_id': ?0,'quoteAuthor' : ?0 }")
-    List<Quote> findUsersByIdAndAuthor(String id, String quoteAuthor);
+    @Query("{ '_id': ?0,'quoteAuthor' : ?1 }")
+    List<Quote> findQuotesByIdAndAuthor(String id, String quoteAuthor);
 
     default List<Quote> findBy(String id,
                                    String text,
