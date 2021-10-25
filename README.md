@@ -1,9 +1,9 @@
-👋 Hi, I’m @miguellopescosta
+👋 Hi, I’m @miguellopescosta <br />
 
-👀 I’m interested in ... surfing 🏄 and coding 👨‍💻!
-🌱 I’m currently programming with... Java, JavaScript, Spring Boot, Node.JS among many other technologies.
-💞️ I’m looking to collaborate on ... good causes!
-📫 How to reach me ... miguellopescosta@sapo.pt
+👀 I’m interested in ... surfing 🏄 and coding 👨‍💻! <br />
+🌱 I’m currently programming with... Java, JavaScript, Spring Boot, Node.JS among many other technologies. <br />
+💞️ I’m looking to collaborate on ... good causes! <br />
+📫 How to reach me ... miguellopescosta@sapo.pt <br />
 
 # spring-boot-mongodb
 Funny assignment with Spring Boot, Spring Data, Spring Web and Google Guava CacheLoader.
@@ -19,9 +19,9 @@ If you wish to run the project on Intelli J, please, remove the following depend
       </dependency>
 
 Services:
-http://127.0.0.1:8080/quotes50k-1.0.0/allquotes
-http://127.0.0.1:8080/quotes50k-1.0.0/allquotesfast
-http://localhost:8080/quotes50k-1.0.0/search?id=5eb17ab1b69dc744b4e7af0a&author=Bill Gates
-http://127.0.0.1:8080/quotes50k-1.0.0/detailedsearch?id=5eb17ab1b69dc744b4e7af0a&text=Everything&author=Ricky&genre=learning&__v=1
+/quotes50k-1.0.0/allquotes <br />
+/quotes50k-1.0.0/allquotesfast <br />
+/quotes50k-1.0.0/search?id=5eb17ab1b69dc744b4e7af0a&author=Bill Gates <br />
+/quotes50k-1.0.0/detailedsearch?id=5eb17ab1b69dc744b4e7af0a&text=Everything&author=Ricky&genre=learning&__v=1 <br />
       
 
